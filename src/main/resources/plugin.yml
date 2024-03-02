@@ -1,0 +1,4 @@
+name: factions
+version: '${project.version}'
+main: branel.org.example.factions.Factions
+api-version: '1.20'
