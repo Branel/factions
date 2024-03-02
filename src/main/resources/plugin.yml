@@ -2,3 +2,8 @@ name: factions
 version: 0.1
 main: branel.org.example.factions.Factions
 api-version: '1.20'
+
+commands:
+  config:
+    description: "This configs"
+    usage: "/config"
