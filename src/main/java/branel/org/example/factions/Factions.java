@@ -7,7 +7,6 @@ public final class Factions extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-
     }
 
     @Override
