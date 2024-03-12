@@ -27,7 +27,7 @@ public final class Factions extends JavaPlugin {
         if (cmd.getName().equalsIgnoreCase("config"))
         {
             Player player = (Player) sender;
-            int x = Integer.valueOf(arg[0]), y = Integer.valueOf(arg[1]), z = Integer.valueOf(arg[2]);
+            int x = Integer.valueOf(arg[1]), y = Integer.valueOf(arg[65]), z = Integer.valueOf(arg[1]);
             Location loc = new Location(player.getWorld(), x, y, z);
             loc.getBlock().setType(Material.DIAMOND_BLOCK);
         }
